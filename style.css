@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(mainImage.jpg);
+    background-size:  cover;
+    background-position: center;
+    padding: 10px 8%;
+   } 
+header,footer{
+
+    color: #7f0997;
+    width: 100%;
+    text-align: start;
+}
+
+footer{
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 22px;
+    padding:0 30px;
+}
+
+header h2{
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px ;
+    
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+   }
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(217, 127, 9);
+    font-size: 18px;
+    padding: 0 15px;
+    text-transform: uppercase;
+     
+}
+
+.myButton{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(113, 4, 17);
+    color: antiquewhite;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 230px;
+    margin-left: 550px;
+    
+}
+
+.myButton1{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(113, 4, 17);
+    color: antiquewhite;
+    border: 0;
+    border-radius: 20px;
+}
