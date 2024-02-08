@@ -14,7 +14,7 @@
    } 
 header,footer{
 
-    color: #7f0997;
+    color: #92c3d8;
     width: 100%;
     text-align: start;
 }
@@ -29,6 +29,7 @@ footer{
 
 header h2{
     font-size: 30px;
+    background-color: aqua;
 }
 
 header{
@@ -82,4 +83,37 @@ color: antiquewhite;
 margin-top: 100px;
 background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(mainImage.jpg);
 border-radius: 20px;
+}
+
+.logo{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(mainImage.jpg);
+    font-size-adjust: 50px;
+    font-size: larger;
+    font-style: italic;
+
+}
+
+.Cat{
+    margin-top: 50px;
+}
+
+.nike{
+     margin-left: 950px;
+    
+}
+
+.puma{
+    
+}
+
+.adid{
+
+    margin-left: 950px;
+}
+
+.Cat1{
+
+     margin-left: 950px;
+     margin-top: 10px;
+    
 }
